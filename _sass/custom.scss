@@ -9,3 +9,29 @@
 .icon-block .material-icons {
        font-size: inherit;
 }
+
+/* Remove built-in roboto */
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.top-cushion {
+  margin-top: 52px;
+}
+
+.hello-text {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 46px;
+}
+
+.funfont-text {
+  font-family: 'Shadows Into Light', sans-serif;
+}
+
+a {
+  color: #1da2cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}

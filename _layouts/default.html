@@ -1,20 +1,31 @@
 {% include top.html %}
 
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <br>
-        <div class="row center">
-            <h3 class="header col s12 light">Join the dialogue.</h3>
-        </div>
-
-        <div class="row center">
-            <ul>
-                {% for post in site.posts %}
-                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
+<div class="container">
+  <!--   Top padding   -->
+  <div class="section">
+    <div class="row top-cushion">
     </div>
+  </div>
+
+  <!--   Content   -->
+  <div class="section">
+    <div class="row valign-wrapper">
+      <div class="col m5 l5">
+        <img class="responsive-img circle hide-on-small-only" src="img/samwolo.png">
+      </div>
+
+      <div class="col s12 m7 l7">
+          <h5 class="col s12 m12 l12 center valign hello-text">hello [at] samwolo.com</h5>
+          <div class="row">
+            <h5 class="col s12 m3 l3 center funfont-text"><a href="http://wheres.samwolo.com/" target="_blank">map</a></h5>
+            <h5 class="col s12 m3 l3 center funfont-text"><a href="https://www.instagram.com/sam.wolo/" target="_blank">photos</a></h5>
+            <h5 class="col s12 m3 l3 center funfont-text"><a href="https://github.com/swoloszynski" target="_blank">code</a></h5>
+            <h5 class="col s12 m3 l3 center funfont-text"><a href="http://gear.samwolo.com/" target="_blank">gear</a></h5>
+
+          </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
